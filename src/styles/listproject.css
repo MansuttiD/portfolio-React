@@ -1,0 +1,9 @@
+.container__projects{
+    width: 100%;
+    padding: 1.5em;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(332px, 1fr));
+    gap: .5em;
+    margin-top: 20px;
+}
+

@@ -1,0 +1,21 @@
+[
+
+    {
+        "name": "Fundamentos de JS - Academlo",
+        "urlDomain": "https://certificates.academlo.com/en/verify/34760506487792",
+        "img": "../img/academlofundamentosdejs.png"
+    },
+
+    {
+        "name": "Curso Basico de JS - Platzi",
+        "urlDomain": "https://platzi.com/p/daniel.mansutti/curso/1814-basico-javascript/diploma/detalle/",
+        "img": "../img/cursobasicoJSPlatzi.jpg"
+    },
+
+    {
+        "name": "Curso Practico JS - Platzi",
+        "urlDomain": "https://platzi.com/p/daniel.mansutti/curso/3271-javascript-practico/diploma/detalle/",
+        "img": "../img/cursopracticojs.jpg"
+    }
+
+]
