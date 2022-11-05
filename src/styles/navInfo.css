@@ -1,17 +1,25 @@
 .nav__info{
-    padding-left: 2rem;
     display: none;
-    box-shadow: 0px 0px 20px 2px rgba(133, 158, 142, 0.269);
-    padding: 2em;
+    /* box-shadow: 0px 0px 20px 2px rgba(133, 158, 142, 0.269); */
+    padding: 1em;
     color: var(--text-primary);
     background-color: var(--background);
     transition: all .5s;
-    margin-bottom: 60px;
+    animation: boxshadow2 1.5s infinite alternate-reverse;
     margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 15px;
 }
 
-.nav__info:hover{
-    box-shadow: 0px 0px 30px 7px var(--boxshadow);
+
+@keyframes boxshadow2 {
+    0%{
+        box-shadow: 0px 0px 20px 2px rgba(133, 158, 142, 0.269);
+    }
+
+    100%{
+        box-shadow: 0px 0px 20px 2px rgba(133, 164, 119, 0.622);
+    }
 }
 
 .nav__info-title{

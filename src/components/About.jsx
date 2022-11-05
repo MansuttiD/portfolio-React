@@ -8,7 +8,9 @@ const About = ({theme}) => {
         <p>
         Creatividad ilimitada, responsabilidad absoluta y 0% miedo de aprender todo lo que sea necesario para ser parte del crecimiento y éxito de un equipo.        </p>
         <br />
-        <p>¿Por qué soy el developer correcto para tu proyecto?</p>
+        <div className='container__pcenter'>
+          <p className='pcenter'>¿Por qué soy el developer correcto para tu proyecto?</p>
+        </div>
         <br />
         <p>Me considero una persona sanamente competitiva y a la vez muy empática, me gusta ayudar en todo el que pueda, ver crecer los proyectos en los que me involucro, y ser parte importante de su éxito. </p>
         <br />

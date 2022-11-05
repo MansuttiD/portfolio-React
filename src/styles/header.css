@@ -15,7 +15,9 @@
     flex-direction: column;
     justify-content: center;
     min-height: 350px;
-    background-image: url(../assets/gif-1.gif);
+    background-image:url(../assets/gif1seg.gif);
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .wrapper{
@@ -28,15 +30,15 @@
 
 .wrapper .static-txt{
     color: rgb(0, 181, 26);
-    font-size: 60px;
+    font-size: 50px;
     font-weight: bold;
 }
 
 .wrapper .dynamic-txts{
-    margin-left: 15px;
-    height: 90px;
-    line-height: 90px;
+    margin-left: 13px;
+    line-height: 80px;
     overflow: hidden;
+    height: 90px;
 }
 
 
@@ -52,7 +54,7 @@
 
 @keyframes slide {
     100%{
-        top: -360px;
+        top: -326px;
     }
 }
 
@@ -68,6 +70,15 @@
     color: rgb(0, 181, 26);
     background-color: rgba(28, 27, 27, 0.679);
     box-shadow: var(--boxshadow);
+    cursor: pointer;
+    transition: .7s;
+}
+
+.cv:hover{
+    background-color: rgba(255, 255, 255, 0.481);
+    color: #7e9a88;
+    font-weight: bold;
+    box-shadow: 0px 0px 30px 7px var(--boxshadow);
 }
 
 .cv__container{
@@ -75,6 +86,7 @@
     align-items: center;
     gap: .5em;
 }
+
 
 .dynamic-txts li span {
     position: relative;
@@ -86,12 +98,33 @@
 @media (min-width: 600px) {
     .header{
        grid-column: span 3;
-       height: 350px;
+       height: 450px;
        background-position: center;
+    }
+
+    .wrapper .static-txt{
+        font-size: 100px;
+
+    }
+
+    .wrapper .dynamic-txts{
+        height: 130px;
+        line-height: 150px;
+    }
+
+    .dynamic-txts li {
+        height: 225px;
     }
 
     .dynamic-txts li span {
         border-bottom: 1px solid rgb(0, 181, 26);
+        font-size: 60px;
+    }
+
+    @keyframes slide {
+        100%{
+            top: -900px;
+        }
     }
 
 }

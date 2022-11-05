@@ -3,54 +3,60 @@
     {
         "name": "Ecommerce",
         "urlDomain": "https://super-fudge-18aa6c.netlify.app",
-        "img": "../img/weather.jpg"
+        "img": "../img/weather.jpg",
+        "description": "React Ecommerce",
+        "video": "../videos/prueba.mp4"
     },
 
     {
         "name": "Rick & Morty Api",
         "urlDomain": "https://chimerical-trifle-b625be.netlify.app",
-        "img": "../img/rickandmorty.jpg"
+        "img": "../img/rickandmorty.jpg",
+        "description": "Api Management",
+        "video": "../videos/prueba.mp4"
     },
 
     {
         "name": "Task App",
         "urlDomain": "https://tiny-eclair-cd2dbd.netlify.app",
-        "img": "../img/weather.jpg"
+        "img": "../img/weather.jpg",
+        "description": "React User Crud",
+        "video": "../videos/prueba.mp4"
     },
 
     {
         "name": "Poke Api",
         "urlDomain": "https://daniel-mansutti-pokeapi.netlify.app",
-        "img": "../img/weather.jpg"
+        "img": "../img/weather.jpg",
+        "description": "Api Management",
+        "video": "../videos/prueba.mp4"
     },
     {
         "name": "Weather-app",
         "urlDomain": "https://weatherapp-mansutti.netlify.app",
-        "img": "../img/weather.jpg"
+        "img": "../img/weather.jpg",
+        "description": "Api Management",
+        "video": "../videos/prueba.mp4"
     },
     {
-        "name": "Task App 1",
+        "name": "Task App",
         "urlDomain": "https://stellar-mooncake-70336e.netlify.app",
-        "img": "../img/weather.jpg"
-    },
-    {
-        "name": "Js Ecommerce",
-        "urlDomain": "https://daniel-mansutti-ecommerce.netlify.app",
-        "img": "../img/weather.jpg"
-    },
-    {
-        "name": "Cuotes App",
-        "urlDomain": "https://danielmansutti-firstproyect-react.netlify.app",
-        "img": "../img/weather.jpg"
-    },
-    {
-        "name": "Weather-app",
-        "urlDomain": "",
-        "img": "../img/weather.jpg"
+        "img": "../img/weather.jpg",
+        "description": "React User Crud",
+        "video": "../videos/prueba.mp4"
     },
     {
         "name": "Calculator App",
         "urlDomain": "https://app.netlify.com/sites/incandescent-klepon-a6598b",
-        "img": "../img/weather.jpg"
+        "img": "../img/weather.jpg",
+        "description": "React App",
+        "video": "../videos/prueba.mp4"
+    },
+    {
+        "name": "Cuotes App",
+        "urlDomain": "https://danielmansutti-firstproyect-react.netlify.app",
+        "img": "../img/weather.jpg",
+        "description": "React App",
+        "video": "../videos/prueba.mp4"
     }
 ]

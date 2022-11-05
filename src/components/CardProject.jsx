@@ -3,16 +3,34 @@ import '../styles/cardproject.css'
 import { MdRemoveRedEye } from 'react-icons/md';
 
 
+const CardProject = ({name, img, domain, description, video}) => {
+  
+  const handleMove = e => {
+    e.target.previousSibling.play()
+}
 
-
-const CardProject = ({name, img, domain}) => {
+const handleOut = e => {
+    e.target.previousSibling.pause()
+}
+  
   return (
     
-    <article className='card__project' style={{backgroundImage: `url(${img})`}}>
-       <div className='card__content'>
+    <article className='card__project'>
+
+      <video
+        src={video}
+        type='video/mp4' loop
+        className='clip'
+        muted >
+      </video>
+
+      <div className='card__content'    
+      onMouseOut={handleOut}
+      onMouseEnter={handleMove}>
+
         <div className='content_titles'>
           <h2 className='card__title'>{name}</h2>
-          <span>subtitle</span>
+          <span>{description}</span>
         </div>
           <div className='content__icons'>
 

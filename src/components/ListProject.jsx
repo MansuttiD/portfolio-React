@@ -16,6 +16,8 @@ const ListProject = () => {
             name = {project.name} 
             img = {project.img}
             domain = {project.urlDomain}
+            description = {project.description}
+            video= {project.video}
             />
           ))
           }

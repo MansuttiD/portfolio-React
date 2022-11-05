@@ -29,10 +29,13 @@ li{
     transition: all .5s;
 }
 
+.general__content{
+    padding-bottom: 2em;
+}
+
 .dark{
     color: var(--text-primary);
     background-color: var(--background);
-    border: 2px #00B51A solid;
     position: fixed;
     right: 20px;
     bottom: 20px;
@@ -41,9 +44,32 @@ li{
     border-radius: 50%;
     width: 1px;
     height: 1px;
-    
+    animation: border3 1.5s infinite alternate-reverse;
 }
 
+.fa-sun, .fa-moon{
+    animation: icon 1.5s infinite alternate-reverse;
+}
+
+@keyframes border3 {
+    0%{
+        border: 3px solid rgb(211, 208, 38);
+    }
+
+    100%{
+        border: 3px solid #00B51A;
+    }
+}
+
+@keyframes icon {
+    0%{
+        color:#00B51A ;
+    }
+
+    100%{
+        color:rgb(211, 208, 38);
+    }
+}
 
 .darkmode__button{
     display: flex;
