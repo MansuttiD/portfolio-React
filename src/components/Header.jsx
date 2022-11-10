@@ -20,8 +20,14 @@ const Header = () => {
           </ul>
       </div>
       <div className='cv__container'>
-      <button className='cv'>CV-Es<i class="fa-regular fa-circle-down"></i></button>
-      <button className='cv'>CV-Eng<i class="fa-regular fa-circle-down"></i></button>
+        <a href="https://drive.google.com/file/d/1Uc-YRfR7aD4A2ykVw1tCCcYZyCNk_wNn/view?usp=sharing" target="blank">
+        <button className='cv'>CV-Es<i class="fa-regular fa-circle-down"></i></button>
+        </a>
+
+        <a href="https://drive.google.com/file/d/1L-1bQKMJJ0vu5pchAtXF7yf3QguBhxwk/view?usp=sharing" target="blank">
+        <button className='cv'>CV-Eng<i class="fa-regular fa-circle-down"></i></button>
+        </a>
+      
       </div>
     </header>
   )

@@ -31,10 +31,10 @@ const CardInfo = ({theme}) => {
         </div>
 
         <div className='card__button'>
-        <a href="https://wa.link/m1e2dc" target="blank"><button className='btn__mail card__btn'>
+        <a href="mailto: daniel.mansutti@gmail.com" target="blank"><button className='btn__mail card__btn'>
                 <FiMail/>
             </button></a>
-        <a href="mailto: daniel.mansutti@gmail.com" target="blank"><button className='btn__wpp card__btn'>
+        <a href="https://wa.link/m1e2dc" target="blank"><button className='btn__wpp card__btn'>
                 <BsWhatsapp/>
             </button></a>
         </div>

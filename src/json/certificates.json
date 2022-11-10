@@ -1,4 +1,9 @@
 [
+    {
+        "name": "Front-End Development whit React",
+        "urlDomain": "https://certificates.academlo.com/en/verify/71018920563791",
+        "img": "../img/reactacademlo.jpg"
+    },
 
     {
         "name": "Fundamentos de JS - Academlo",
@@ -16,6 +21,24 @@
         "name": "Curso Practico JS - Platzi",
         "urlDomain": "https://platzi.com/p/daniel.mansutti/curso/3271-javascript-practico/diploma/detalle/",
         "img": "../img/cursopracticojs.jpg"
+    },
+
+    {
+        "name": "Curso Practico JS - Platzi",
+        "urlDomain": "https://platzi.com/p/daniel.mansutti/curso/3219-react-redux-profesional/diploma/detalle/",
+        "img": "../img/reactplatzi.jpg"
+    },
+
+    {
+        "name": "Conceptos de la programación - OpenBootcamp",
+        "urlDomain": "https://community.open-bootcamp.com/user/mansutti/certificaciones/f10b4ab8-62cc-4b50-bb08-30cbcbec1359",
+        "img": "../img/conceptos-programacion.jpg"
+    },
+
+    {
+        "name": "JavaScript - OpenBootcamp",
+        "urlDomain": "https://community.open-bootcamp.com/user/mansutti/certificaciones/81670005-e837-48d8-ba69-71c67a1c82ac",
+        "img": "../img/javascript.jpg"
     }
 
 ]

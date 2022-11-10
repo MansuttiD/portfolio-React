@@ -5,7 +5,7 @@
         "urlDomain": "https://super-fudge-18aa6c.netlify.app",
         "img": "../img/weather.jpg",
         "description": "React Ecommerce",
-        "video": "../videos/prueba.mp4"
+        "video": "../videos/ecommerce.mp4"
     },
 
     {
@@ -13,7 +13,7 @@
         "urlDomain": "https://chimerical-trifle-b625be.netlify.app",
         "img": "../img/rickandmorty.jpg",
         "description": "Api Management",
-        "video": "../videos/prueba.mp4"
+        "video": "../videos/rickandmorty.mp4"
     },
 
     {
@@ -21,7 +21,7 @@
         "urlDomain": "https://tiny-eclair-cd2dbd.netlify.app",
         "img": "../img/weather.jpg",
         "description": "React User Crud",
-        "video": "../videos/prueba.mp4"
+        "video": "../videos/taskapp.mp4"
     },
 
     {
@@ -29,34 +29,34 @@
         "urlDomain": "https://daniel-mansutti-pokeapi.netlify.app",
         "img": "../img/weather.jpg",
         "description": "Api Management",
-        "video": "../videos/prueba.mp4"
+        "video": "../videos/pokeapi.mp4"
     },
     {
         "name": "Weather-app",
         "urlDomain": "https://weatherapp-mansutti.netlify.app",
         "img": "../img/weather.jpg",
         "description": "Api Management",
-        "video": "../videos/prueba.mp4"
+        "video": "../videos/weatherapp.mp4"
     },
     {
         "name": "Task App",
         "urlDomain": "https://stellar-mooncake-70336e.netlify.app",
         "img": "../img/weather.jpg",
         "description": "React User Crud",
-        "video": "../videos/prueba.mp4"
+        "video": "../videos/usercrudacademlo.mp4"
     },
     {
         "name": "Calculator App",
         "urlDomain": "https://app.netlify.com/sites/incandescent-klepon-a6598b",
         "img": "../img/weather.jpg",
         "description": "React App",
-        "video": "../videos/prueba.mp4"
+        "video": "../videos/calculadora.mp4"
     },
     {
         "name": "Cuotes App",
         "urlDomain": "https://danielmansutti-firstproyect-react.netlify.app",
         "img": "../img/weather.jpg",
         "description": "React App",
-        "video": "../videos/prueba.mp4"
+        "video": "../videos/quotes.mp4"
     }
 ]
