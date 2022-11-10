@@ -44,7 +44,7 @@ li{
     border-radius: 50%;
     width: 1px;
     height: 1px;
-    animation: border3 1.5s infinite alternate-reverse;
+    animation: border3 1s infinite alternate-reverse;
 }
 
 .fa-sun, .fa-moon{
