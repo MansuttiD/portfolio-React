@@ -12,7 +12,9 @@ import { Route, Routes } from "react-router-dom";
 import useLocalStorage from "use-local-storage";
 
 
+
 function App() {
+
   const defaultDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
   const [theme, setTheme] = useLocalStorage(
     "theme",
@@ -35,6 +37,7 @@ function App() {
   return (
     <>
     <div className="App" data-theme={theme}>
+
       <Routes>
         <Route path="/" element={<Preload />} />
         <Route

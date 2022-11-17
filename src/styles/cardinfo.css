@@ -8,6 +8,8 @@
     gap : 1em;
 }
 
+
+
 .card__img{
     width: 230px;
     border: 3px solid rgba(0, 181, 26, 90%);
@@ -15,6 +17,22 @@
     overflow: hidden;
     position: relative;
     bottom: 50px;
+    margin-bottom: -2.5em;
+}
+
+.lenguage {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.lenguage img{
+    height: 35px;
+    width: 50px;
+    box-shadow: var(--boxshadow);
+    cursor: pointer;
+    transition: .7s
 }
 
 

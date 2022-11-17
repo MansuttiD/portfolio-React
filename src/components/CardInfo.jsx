@@ -7,17 +7,23 @@ import { TiSocialTwitterCircular } from 'react-icons/ti'
 import { BiMap } from 'react-icons/bi'
 import { FiMail } from 'react-icons/fi'
 import { BsWhatsapp } from 'react-icons/bs'
+import { useTranslation } from "react-i18next";
 
 const CardInfo = ({theme}) => {
+  const [t, i18n] = useTranslation("global");
   return (
     <article className='card__info'>
       <div className='card__img'>
         <img src={picture} alt="" />
       </div>
+      <div className='lenguage'>
+          <img className='spain' onClick={() => i18n.changeLanguage("es")} src="../img/spain.svg"/>
+          <img className='usa' onClick={() => i18n.changeLanguage("en")} src="../img/flag-for-flag-united-states-svgrepo-com.svg"/>
+        </div>
         
         <h1 className='card__title' >Daniel Mansutti</h1>
         <ul >
-          <li className='card__description'>Ing. Sistemas & FrontEnd Developer. (JS / React | HTML | CSS | SEO | Digital Marketing)</li>
+          <li className='card__description'>{t("preload.span")} (JS | React | HTML | CSS | NodeJs | SEO | Wordpress)</li>
           <li className='card__email'>Daniel.Mansutti@gmail.com</li>
         </ul>
 <div className='card__icons'>

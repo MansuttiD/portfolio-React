@@ -85,12 +85,14 @@
     display: flex;
     align-items: center;
     gap: .5em;
+    margin-bottom: -.9rem ;
 }
 
 
 .dynamic-txts li span {
     position: relative;
 }
+
 
 
 

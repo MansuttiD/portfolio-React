@@ -5,8 +5,10 @@ import {SiReact} from "react-icons/si"
 import {SiRedux} from "react-icons/si"
 import {IoLogoNodejs} from "react-icons/io"
 import picture from '../assets/picture.png'
+import { useTranslation } from "react-i18next";
 
 const Preload = () => {
+    const [t, i18n] = useTranslation("global");
   return (
     <div className='preload'>
         <div className="card">
@@ -17,8 +19,8 @@ const Preload = () => {
             <div className="content">
                 <div className="details">
                     <div className="actionBtn">
-                        <h2>Daniel Mansutti<br/><span>Ing. Sistemas | Front Dev</span></h2>
-                        <Link to='/portfolio'><button className='btn1'>Entrar</button></Link>
+                        <h2>Daniel Mansutti<br/><span>{t("preload.span")}</span></h2>
+                        <Link to='/portfolio'><button className='btn1'>{t("preload.button")}</button></Link>
                     </div>
                     <section className='contnt__skills'>
                         <div className="data">
@@ -27,7 +29,7 @@ const Preload = () => {
                             <h3><IoLogoNodejs/><br/><span>Node</span></h3>
                         </div>
                         <div className="actionBtn btn2">
-                            <Link to='/portfolio'><button>Entrar</button></Link>
+                            <Link to='/portfolio'><button>{t("preload.button")}</button></Link>
                         </div>
                     </section>
                 </div>

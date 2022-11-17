@@ -1,8 +1,10 @@
 import React from 'react'
 import '../styles/header.css'
+import { useTranslation } from "react-i18next";
+
 
 const Header = () => {
-
+  const [t, i18n] = useTranslation("global");
 
   return (
     // <header className='header'>
@@ -27,8 +29,8 @@ const Header = () => {
         <a href="https://drive.google.com/file/d/1L-1bQKMJJ0vu5pchAtXF7yf3QguBhxwk/view?usp=sharing" target="blank">
         <button className='cv'>CV-Eng<i class="fa-regular fa-circle-down"></i></button>
         </a>
-      
       </div>
+
     </header>
   )
 }
