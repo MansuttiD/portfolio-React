@@ -2,7 +2,7 @@
 
     {
         "name": "Ecommerce",
-        "urlDomain": "https://super-fudge-18aa6c.netlify.app",
+        "urlDomain": "https://keen-cannoli-61f301.netlify.app",
         "img": "../img/weather.jpg",
         "description": "React Ecommerce",
         "video": "../videos/ecommerce.mp4"
@@ -15,15 +15,13 @@
         "description": "Api Management",
         "video": "../videos/rickandmorty.mp4"
     },
-
     {
         "name": "Task App",
         "urlDomain": "https://tiny-eclair-cd2dbd.netlify.app",
         "img": "../img/weather.jpg",
         "description": "React User Crud",
-        "video": "../videos/taskapp.mp4"
+        "video": "../videos/usercrudacademlo.mp4"
     },
-
     {
         "name": "Poke Api",
         "urlDomain": "https://daniel-mansutti-pokeapi.netlify.app",
@@ -43,11 +41,11 @@
         "urlDomain": "https://stellar-mooncake-70336e.netlify.app",
         "img": "../img/weather.jpg",
         "description": "React User Crud",
-        "video": "../videos/usercrudacademlo.mp4"
+        "video": "../videos/taskapp.mp4"
     },
     {
         "name": "Calculator App",
-        "urlDomain": "https://app.netlify.com/sites/incandescent-klepon-a6598b",
+        "urlDomain": "https://incandescent-klepon-a6598b.netlify.app",
         "img": "../img/weather.jpg",
         "description": "React App",
         "video": "../videos/calculadora.mp4"
