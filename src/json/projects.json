@@ -1,4 +1,19 @@
 [
+    {
+        "name": "Manageable Blog",
+        "urlDomain": "https://para-cuando-one.vercel.app",
+        "img": "../img/weather.jpg",
+        "description": "Typescript + NextJs",
+        "video": "../videos/paracuandovideo.mp4"
+    },
+
+    {
+        "name": "Social Network Api",
+        "urlDomain": "https://github.com/MansuttiD/socialnetwork-api",
+        "img": "../img/weather.jpg",
+        "description": "Backend - NodeJs",
+        "video": "../videos/apisocialnetworkvideo.mp4"
+    },
 
     {
         "name": "Ecommerce",

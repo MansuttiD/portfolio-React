@@ -14,7 +14,7 @@ const NavInfo = ({show, theme}) => {
               <li className='nav__info-item'> — {t("navinfo.li2")}</li>
               <li className='nav__info-item'> — Scrum</li>
               <li className='nav__info-item'> — SEO</li>
-              <li className='nav__info-item'> — FullStack Dev (JS | React | NodeJs | HTML | CSS | GIT)</li>
+              <li className='nav__info-item'> — FullStack Dev (Typescript | React | NextJs | NodeJs | GIT | HTML-CSS)</li>
           </ul>
         </div>
         <h3 className='nav__info-title m-bottom'>{t("navinfo.contact")}</h3>

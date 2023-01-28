@@ -1,5 +1,10 @@
 [
     {
+        "name": "Fundamentos de TypeScript - Platzi",
+        "urlDomain": "https://platzi.com/p/daniel.mansutti/curso/2878-typescript/diploma/detalle/",
+        "img": "../img/typescript.jpg"
+    },
+    {
         "name": "Front-End Development whit React",
         "urlDomain": "https://certificates.academlo.com/en/verify/71018920563791",
         "img": "../img/reactacademlo.jpg"
@@ -12,7 +17,7 @@
     },
 
     {
-        "name": "Curso Basico de JS - Platzi",
+        "name": "JavaScript - Platzi",
         "urlDomain": "https://platzi.com/p/daniel.mansutti/curso/1814-basico-javascript/diploma/detalle/",
         "img": "../img/cursobasicoJSPlatzi.jpg"
     },
@@ -24,7 +29,7 @@
     },
 
     {
-        "name": "Curso Practico JS - Platzi",
+        "name": "React.js y Redux Profesional - Platzi",
         "urlDomain": "https://platzi.com/p/daniel.mansutti/curso/3219-react-redux-profesional/diploma/detalle/",
         "img": "../img/reactplatzi.jpg"
     },
