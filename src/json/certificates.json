@@ -5,6 +5,11 @@
         "img": "../img/typescript.jpg"
     },
     {
+        "name": "Curso de Next.js - Platzi",
+        "urlDomain": "https://platzi.com/p/daniel.mansutti/curso/1991-next/diploma/detalle/",
+        "img": "../img/nextjs.jpg"
+    },
+    {
         "name": "Front-End Development whit React",
         "urlDomain": "https://certificates.academlo.com/en/verify/71018920563791",
         "img": "../img/reactacademlo.jpg"
